@@ -1,0 +1,36 @@
+.input-container-bg{
+    background-color:rgb(0, 0, 0 ,0.9);
+}
+form input{
+    width: 33%;
+    height: 50px;
+    border: 2px solid grey;
+}
+::placeholder{
+    color: black;
+    font-weight: 700;
+}
+form-input[type = 'submit']{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.heading-padding{
+    padding: 0px 94px;
+  
+}
+
+footer .container div .img-list li{
+    width: 10%;
+}
+.gereksiz-bg-color{
+    background-color: #090909;
+}
+@media screen and(max-width:768px){
+    form-input{
+        width: 100px;
+    }
+} 
+.yapısma{
+    position: static!important;
+}
+    
